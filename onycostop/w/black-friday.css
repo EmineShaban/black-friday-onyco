@@ -74,3 +74,44 @@
     font-size: 11px;
     margin-top: 5px;
 }
+
+.black-friday .sale-small{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    
+}
+
+
+.black-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.black-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.black-prod{
+    background-blend-mode:multiply;
+}
+
+.black-product{
+    background-color: #2192ca;
+}
+
+
+.black-product{
+    position: relative;
+}
+.black-product img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
