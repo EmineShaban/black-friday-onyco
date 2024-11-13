@@ -30,14 +30,14 @@
 
 }
 
-.div20 p{
+.div20 p {
     color: white;
     font-weight: 200;
     font-size: 14px;
     line-height: 1.4;
 }
 
-.off-20{
+.off-20 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,13 +45,14 @@
     column-gap: 10px;
 }
 
-.span-flex{
-   border-top: 8px solid white;
+.span-flex {
+    border-top: 8px solid white;
     padding-top: 5px;
     margin-bottom: -20px;
 
 }
-.off-20 b{
+
+.off-20 b {
     font-size: 45px;
     display: flex;
     align-items: center;
@@ -59,59 +60,114 @@
     color: white;
     padding-top: 4px;
 }
-.span-flex{
+
+.span-flex {
     display: flex;
     flex-direction: column;
 }
 
-.border-code{
+.border-code {
     border: 1px solid white;
     padding: 2px;
     margin-top: 5px;
 }
 
-.div20 p:last-child{
+.div20 p:last-child {
     font-size: 11px;
     margin-top: 5px;
 }
 
-.black-friday .sale-small{
+.black-friday .sale-small {
     font-size: 13px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 7px;
     padding-bottom: 5px;
-    
+
 }
 
 
-.black-grid{
+.black-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.black-product{
+.black-product {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.black-prod{
-    background-blend-mode:multiply;
+.black-prod {
+    background-blend-mode: multiply;
 }
 
-.black-product{
+.black-product {
     background-color: #2192ca;
 }
 
 
-.black-product{
+.black-product {
     position: relative;
 }
-.black-product img{
+
+.black-product img {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 100%;
+    right: -5%;
     transform: translate(-50%, -50%);
+
 }
 
+.black-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.black-product p {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.black-product a {
+    background-color: #f54401;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    margin-top: 35px;
+    font-weight: 700;
+    border: unset;
+    font-size: 20px;
+}
+
+.black-product div{
+    z-index: 1;
+}
+
+/* hurry-up */
+
+.hurry-up{
+    z-index: -1;
+
+   position: relative;
+}
+
+.hurry-up div {
+    position: absolute;
+    top: 80%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+z-index: 2;
+text-align: center;
+width: 85%;
+
+}
+
+.hurry-up div p{
+    color: white;
+    text-transform: uppercase;
+}
