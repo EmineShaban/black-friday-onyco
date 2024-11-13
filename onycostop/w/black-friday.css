@@ -188,7 +188,15 @@
 .mobile650 {
     display: none;
 }
-
+.mobile994 {
+    display: none;
+}
+.mobile1200{
+    display: none;
+}
+.mobile1400{
+    display: none;
+}
 @media only screen and (min-width: 414px) {
     .black-friday .sale-small {
         font-size: 14px;
@@ -302,9 +310,87 @@
     .div20 p:last-child {
         font-size: 13px;
     }
+    .off-20 b {
+        font-size: 55px;
+    }
+    .span-flex {
+        border-top: 8px solid white;
+    }
+    .div20 {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+    }
+    .black-product div {
+        margin-left: 100px;
+    }
+    .hurry-up div {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+    }
+    .mobile994{
+        display: block;
+    }
+    .prod {
+        width: 45%;
+    }
+    .black-product img {
+        position: absolute;
+        top: -11%;
+    }
+}
 
 
+@media only screen and (min-width: 1200px) {
+    .prod {
+        width: 40%;
+    }
+    .black-product img {
+        position: absolute;
+        top: 2%;
+    }
+    .mobile1200{
+        display: block;
+    }
+}
 
 
-    
+@media only screen and (min-width: 1400px) {
+    .mobile1400{
+        display: block;
+    }
+
+}
+
+
+@media only screen and (min-width: 1600px) {
+    .black-product p {
+        font-size: 25px;
+        margin-bottom: 16px;
+    }
+    .black-product a {
+        font-size: 30px;
+    }
+    .black-product div {
+        margin-left: 150px;
+    }
+    .div20 {
+        width: 28%;
+    }
+    .off-20 b {
+        font-size: 80px;
+    }
+    .div20 p {
+        font-size: 22px;
+    }
+    .div20 p:last-child {
+        margin-top: 13px;
+    }
+    .hurry-up div p {
+        font-size: 26px;
+    }
+    .alert {
+        width: 40px;
+    }
 }
