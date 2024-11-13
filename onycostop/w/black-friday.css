@@ -145,34 +145,49 @@
     border-radius: 9px;
 }
 
-.black-product div{
+.black-product div {
     z-index: 1;
 }
 
 /* hurry-up */
 
-.hurry-up{
+.hurry-up {
     z-index: -1;
 
-   position: relative;
+    position: relative;
 }
 
 .hurry-up div {
     position: absolute;
-    top: 80%; 
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-z-index: 2;
-text-align: center;
-width: 85%;
+    z-index: 2;
+    text-align: center;
+    width: 85%;
 
 }
 
-.hurry-up div p{
+.hurry-up div p {
     color: white;
     text-transform: uppercase;
 }
 
+.alert{
+    width: 30px;
+    margin-bottom: 5px;
+}
+.desktop{
+    display: none;
+
+}
+.mobile500 {
+    display: none;
+}
+
+.mobile650 {
+    display: none;
+}
 
 @media only screen and (min-width: 414px) {
     .black-friday .sale-small {
@@ -187,19 +202,109 @@ width: 85%;
         font-weight: 200;
         font-size: 16px;
     }
+
     .black-product p {
         font-size: 20px;
         margin-bottom: 18px;
 
     }
-    .black-product a{
+
+    .black-product a {
         font-size: 22px;
     }
-    .hurry-up div p { 
+
+    .hurry-up div p {
         font-size: 20px;
     }
+
     .hurry-up div {
         position: absolute;
         top: 83%;
     }
+
+    .mobile500 {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    .mobile650 {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .desktop{
+        display: block;
+    
+    }
+    .mobile{
+        display: none;
+    
+    }
+    .prod{
+        width: 40%;
+    }
+    .black-product img {
+        position: absolute;
+        top: 2%;
+        left: 100%;
+        right: -5%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hurry-up div {
+        position: absolute;
+        top: 63%;
+    }
+
+    .hurry-up div p {
+        font-size: 18px;
+    }
+
+    .off-20 b {
+        font-size: 38px;
+    }
+    .span-flex {
+        border-top: 5px solid white; 
+    }
+    .div20 p { 
+        font-size: 12px;
+    }
+    .div20 { 
+        width: 40%;
+    }
+    .div20 p:last-child { 
+        margin-top: 3px;
+    }
+    .off-20 b { 
+        padding-top: 0;
+    }
+    .black-grid-div{
+        background-color: #2192ca;
+    }
+    .black-product p {
+        font-size: 17px;
+        margin-bottom: 14px;
+    }
+
+    .black-product a {
+        font-size: 18px;
+    }
+
+}
+
+
+@media only screen and (min-width: 994px) {
+    .div20 p {
+        font-size: 16px;
+    }
+    .div20 p:last-child {
+        font-size: 13px;
+    }
+
+
+
+
+    
 }
